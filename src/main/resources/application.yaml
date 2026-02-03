@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: oracle-jdbc-import
+  datasource:
+    url: jdbc:oracle:thin:@172.16.100.73:1521:msystechhis
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: arumdb
+    password: arum7575
+  batch:
+    jdbc:
+      initialize-schema: never
+    job:
+      enabled: false
